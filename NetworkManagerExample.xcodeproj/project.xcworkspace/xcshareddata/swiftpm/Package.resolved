@@ -1,0 +1,15 @@
+{
+  "originHash" : "211f3290869cfdca088a76d848ef9c5a23cda83f486ef42f7302aa1274343250",
+  "pins" : [
+    {
+      "identity" : "networkmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/khoavd-dev/NetworkManager.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "78ab8e6fd7d00249a9d0cbd6dc6213de82abedca"
+      }
+    }
+  ],
+  "version" : 3
+}

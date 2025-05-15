@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  NetworkManagerExample
+
+  Created by Khoa Vo on 6/5/25.
+  
+*/
+
+"listUsers" = "List Users";
+"name" = "Name";
+"company" = "Company";
+"email" = "Email";
+"address" = "Address";
+"country" = "Country";
+"login" = "Login";
+"token" = "Token:";
