@@ -10,6 +10,7 @@ import Observation
 import NetworkManager
 
 @Observable
+@MainActor
 final class LoginViewModel {
     var token: String?
     var errorMessage: String?
