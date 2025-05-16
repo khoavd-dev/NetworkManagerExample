@@ -7,6 +7,7 @@ This is an example of how to apply [NetworkManager](https://github.com/khoavd-de
 - Xcode 16.3
 - Swift concurrency: async/await
 - New `Observation` framework (`@Observable`)
+- MVVM architecture
 
 ## 🚀 Example Usage
 
