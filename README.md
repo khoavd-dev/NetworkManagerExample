@@ -28,7 +28,7 @@ extension NetworkConfiguration {
 ```swift
 struct UserRequest: Requestable {
     typealias Response = UserModel
-    var urlPath: String = "https://api.example.com/users"
+    var urlPath: String = "/users"
     var httpMethod: HTTPMethod = .get
 }
 ```
@@ -54,7 +54,7 @@ final class UserViewModel {
 ```swift
 struct LoginRequest: Requestable {
     typealias Response = LoginModel
-    var urlPath: String = "https://api.example.com/login"
+    var urlPath: String = "/login"
     var httpMethod: HTTPMethod = .post
     var requestBody: Codable? {
         LoginRequestBody(username: username, password: password)
@@ -95,7 +95,7 @@ final class LoginViewModel {
 ```swift
 struct UserRequest: Requestable {
     typealias Response = UserModel
-    var urlPath: String = "https://api.example.com/users"
+    var urlPath: String = "/users"
     var httpMethod: HTTPMethod = .get
     var headers: [String : String]? {
         ["Content-Type": "application/json"]
@@ -108,7 +108,7 @@ struct UserRequest: Requestable {
 ```swift
 struct UserRequest: Requestable {
     typealias Response = UserModel
-    var urlPath: String = "https://api.example.com/users"
+    var urlPath: String = "/users"
     var httpMethod: HTTPMethod = .get
     var queryParameters: [String : String]? {
         ["sort": "asc"]
